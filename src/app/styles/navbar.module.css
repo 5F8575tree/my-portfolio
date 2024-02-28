@@ -17,10 +17,10 @@
     font-weight: 500;
     text-transform: capitalize;
     padding: 0.5rem 0.75rem;
-    background-color: white;
+    background-color: transparent;
     border-radius: 0.25rem;
     transition: background-color 0.2s ease-in;
 }
-.navbar__item:not(.active) {
-    background-color: transparent;
+.navbar__item.active {
+    background-color: white;
 }

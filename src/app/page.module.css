@@ -3,5 +3,6 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    margin: 3.375rem 1rem 0;
+    padding: 3.375rem 1rem 0;
+    background-color: #f3f3f3;
 }
