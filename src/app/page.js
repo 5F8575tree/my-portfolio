@@ -1,10 +1,11 @@
 "use client";
 
 import styles from "./page.module.css";
+
+import Grid from "./components/Grid";
 import Name from "./components/Name";
 import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import ThemeSwitch from "./components/ThemeSwitch";
+
 import { DisplayProvider } from "./context/DisplayContext";
 
 export default function Home() {
@@ -13,8 +14,7 @@ export default function Home() {
       <DisplayProvider>
         <Name />
         <Navbar />
-        <Intro />
-        <ThemeSwitch />
+        <Grid />
       </DisplayProvider>
     </main>
   );
