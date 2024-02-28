@@ -1,5 +1,5 @@
-.intro {
-    grid-area: intro;
+.project {
+    grid-area: project;
     width: 100%;
     height: 100%;
     background-color: #fff;
@@ -16,22 +16,27 @@
         padding: 1rem 0;
     }
 }
-.content__paragraph::before {
-    content: "";
-    display: block;
-    height: 3.5rem;
+.project__intro {
+    padding: 2rem 0;
 }
-.content__headers {
+.project__headers {
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-family-header);
     font-size: var(--font-size-header);
     color: #000;
 }
-.content__headers h2 {
+.project__title {
     color: var(--font-color-thin-accent);
 }
-.content__paragraph {
-    color: var(--font-color-lighter);
+.project__intro {
     font-family: var(--font-family-text);
-    letter-spacing: var(--letter-spacing-text);
     line-height: var(--line-height-text);
+    letter-spacing: var(--letter-spacing-text);
+    color: var(--font-color-lighter);
+}
+.project__link_text {
+    font-family: var(--font-family-header);
+    font-size: var(--font-size-header);
+    color: #000;
 }
