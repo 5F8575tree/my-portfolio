@@ -2,18 +2,25 @@
     margin: 1rem 0 0;
     background-color: var(--grey-light);
     border-radius: 0.5rem;
+    padding: 0.25rem;
 }
 .navbar__list {
     display: flex;
-    padding: 0.75rem 1rem;
 }
 .navbar__list .navbar__item:not(:nth-child(4)) {
-    margin: 0 1.25rem 0 0;
+    margin: 0;
 }
 .navbar__item {
     color: var(--font-color-lighter);
     font-size: var(--font-size-text);
     font-family: var(--font-family-text);
-    font-weight: var(--font-weight-bold);
+    font-weight: 500;
     text-transform: capitalize;
+    padding: 0.5rem 0.75rem;
+    background-color: white;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease-in;
+}
+.navbar__item:not(.active) {
+    background-color: transparent;
 }
