@@ -1,0 +1,21 @@
+.gitHub {
+    grid-area: gitHub;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3.625rem 2.25rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+}
+@media (max-width: 340px) {
+    .gitHub {
+        padding: 1rem 0;
+    }
+}
+.gitHub__image {
+    max-height: 100px;
+    max-width: 100px;
+}

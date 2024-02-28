@@ -1,9 +1,11 @@
 import Intro from "./Intro";
 import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
+import LinkedIn from "./LinkedIn";
 
 import styles from "../styles/grid.module.css";
 import Project from "./Project";
+import GitHub from "./GitHub";
 
 const Grid = () => {
   return (
@@ -16,6 +18,8 @@ const Grid = () => {
         intro="OUTBLAST are a digital marketing company that needed a website with high performance, yet could be edited from WordPress."
         link="www.outblast.com"
       />
+      <LinkedIn />
+      <GitHub />
     </div>
   );
 };
