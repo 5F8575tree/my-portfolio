@@ -40,7 +40,7 @@ const Grid = () => {
           <Project
             title="OUTBLAST company website"
             intro="OUTBLAST are a digital marketing company that needed a website with high performance, yet could be edited from WordPress."
-            link="www.outblast.com"
+            link="https://www.outblast.com"
             number="1"
           />
           <LinkedIn />
@@ -94,7 +94,7 @@ const Grid = () => {
           <Project
             title="OUTBLAST company website"
             intro="OUTBLAST are a digital marketing company that needed a website with high performance, yet could be edited from WordPress."
-            link="www.outblast.com"
+            link="https://www.outblast.com"
             number="1"
           />
           <Project
