@@ -21,6 +21,10 @@
     border-radius: 0.25rem;
     transition: background-color 0.2s ease-in;
 }
+.navbar__item:hover {
+    cursor: pointer;
+    background-color: var(--grid-item-bg);
+}
 .navbar__item.active {
     background-color: var(--color-active);
 }
