@@ -7,6 +7,7 @@ import LinkedIn from "./LinkedIn";
 import Project from "./Project";
 import GitHub from "./GitHub";
 import AboutMe from "./AboutMe";
+import Skills from "./Skills";
 
 const Grid = () => {
   return (
@@ -29,6 +30,7 @@ const Grid = () => {
         number="2"
       />
       <AboutMe />
+      <Skills />
     </div>
   );
 };
