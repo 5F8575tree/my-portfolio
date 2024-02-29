@@ -198,3 +198,57 @@
             "project4";
     }
 }
+
+.gridContact {
+    display: grid;
+    max-width: 350px;
+    margin: 1.5rem 0;
+    gap: 1rem;
+    grid-template-areas:
+        "intro intro"
+        "languageSwitch themeSwitch"
+        "linkedIn gitHub"
+        "emailMe resume";
+}
+@media (min-width: 798px) {
+    .gridContact {
+        display: grid;
+        justify-items: center;
+        max-width: 690px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro intro"
+            "intro intro intro intro"
+            "gitHub linkedIn languageSwitch themeSwitch"
+            "emailMe . . .";
+    }
+}
+@media (min-width: 1200px) {
+    .gridContact {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro languageSwitch gitHub emailMe"
+            "intro intro intro linkedIn themeSwitch .";
+    }
+}
+@media (max-width: 340px) {
+    .gridContact {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro"
+            "languageSwitch"
+            "themeSwitch"
+            "linkedIn"
+            "gitHub"
+            "emailMe";
+    }
+}
