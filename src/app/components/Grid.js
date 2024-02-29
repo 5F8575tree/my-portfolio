@@ -8,8 +8,8 @@ import LanguageSwitch from "./LanguageSwitch";
 import LinkedIn from "./LinkedIn";
 import Project from "./Project";
 import Resume from "./Resume";
-import Skills from "./Skills";
 import ThemeSwitch from "./ThemeSwitch";
+import Skills from "./Skills";
 
 const Grid = () => {
   return (
@@ -41,6 +41,12 @@ const Grid = () => {
       />
       <EmailMe />
       <Resume />
+      <Project
+        title="Landing page"
+        intro="This landing page allows the user to search for a particular rental car and then customise their order."
+        link="https://landing-page-mjr.netlify.app"
+        number="4"
+      />
     </div>
   );
 };

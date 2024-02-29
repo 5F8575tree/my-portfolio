@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    max-width: 498px;
+    max-width: 350px;
     margin: 1.5rem 0 0;
     gap: 1rem;
     grid-template-areas:
@@ -18,5 +18,26 @@
         "skills skills"
         "project3 project3"
         "project3 project3"
-        "emailMe resume";
+        "emailMe resume"
+        "project4 project4"
+        "project4 project4";
+}
+@media (min-width: 798px) {
+    .grid {
+        display: grid;
+        justify-items: center;
+        max-width: 690px;
+        margin: 1.5rem 0 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro languageSwitch gitHub"
+            "intro intro linkedIn themeSwitch"
+            "aboutMe aboutMe project1 project1"
+            "aboutMe aboutMe project1 project1"
+            "project2 project2 project3 project3"
+            "project2 project2 project3 project3"
+            "skills skills project4 project4"
+            "skills skills project4 project4"
+            "emailMe resume . .";
+    }
 }

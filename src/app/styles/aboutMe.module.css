@@ -38,3 +38,18 @@
     max-width: 104px;
     border-radius: 50%;
 }
+
+@media (min-height: 798px) {
+    .aboutMe {
+        max-height: 364px;
+    }
+    .content {
+        padding: 2rem 1.875rem;
+    }
+    .content__paragraph::before {
+        height: 2.5rem;
+    }
+    .content__image {
+        max-width: 64px;
+    }
+}
