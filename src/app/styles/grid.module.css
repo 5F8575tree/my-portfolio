@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     max-width: 350px;
-    margin: 1.5rem 0 0;
+    margin: 1.5rem 0;
     gap: 1rem;
     grid-template-areas:
         "intro intro"
@@ -27,7 +27,7 @@
         display: grid;
         justify-items: center;
         max-width: 690px;
-        margin: 1.5rem 0 0;
+        margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
             "intro intro languageSwitch gitHub"
@@ -46,7 +46,7 @@
         display: grid;
         justify-items: center;
         max-width: 1200px;
-        margin: 1.5rem 0 0;
+        margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
             "intro intro intro languageSwitch gitHub resume"
@@ -64,7 +64,7 @@
         display: grid;
         justify-items: center;
         max-width: 1200px;
-        margin: 1.5rem 0 0;
+        margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
             "intro"

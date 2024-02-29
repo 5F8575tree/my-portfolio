@@ -5,7 +5,7 @@
     max-height: 160px;
     max-width: 160px;
     min-width: 160px;
-    background: var(--linear-accent);
+    border: 1px solid lightgrey;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,10 +24,9 @@
     font-size: 1.5rem;
     text-transform: capitalize;
     line-height: var(--line-height-header);
-    color: var(--font-color-lighter);
+    color: #555;
     font-weight: 100;
     text-align: center;
-    text-shadow: var(--text-shadow);
 }
 @media (max-width: 340px) {
     .emailMe {
