@@ -1,12 +1,17 @@
 .grid {
     display: grid;
+    max-width: 498px;
     margin: 1.5rem 0 0;
     gap: 1rem;
     grid-template-areas:
         "intro intro"
         "intro intro"
         "languageSwitch themeSwitch"
-        "project project"
-        "project project"
-        "linkedIn gitHub";
+        "project1 project1"
+        "project1 project1"
+        "linkedIn gitHub"
+        "project2 project2"
+        "project2 project2"
+        "aboutMe aboutMe"
+        "aboutMe aboutMe";
 }

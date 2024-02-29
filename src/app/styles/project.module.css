@@ -1,5 +1,12 @@
-.project {
-    grid-area: project;
+.project1 {
+    grid-area: project1;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+.project2 {
+    grid-area: project2;
     width: 100%;
     height: 100%;
     background-color: #fff;

@@ -1,8 +1,12 @@
 import styles from "../styles/project.module.css";
 
-const Project = ({ title, intro, link }) => {
+const Project = ({ title, intro, link, number }) => {
+  const classForGrid = (number) => {
+    return styles[`project${number}`];
+  };
+
   return (
-    <div className={styles.project}>
+    <div className={classForGrid(number)}>
       <div className={styles.content}>
         <div className={styles.project__headers}>
           <h2 className={styles.project__header}>project:</h2>
