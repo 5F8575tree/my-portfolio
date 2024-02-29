@@ -82,3 +82,149 @@
             "resume";
     }
 }
+
+.gridAbout {
+    display: grid;
+    max-width: 350px;
+    margin: 1.5rem 0;
+    gap: 1rem;
+    grid-template-areas:
+        "intro intro"
+        "intro intro"
+        "languageSwitch themeSwitch"
+        "aboutMe aboutMe"
+        "aboutMe aboutMe"
+        "skills skills"
+        "skills skills"
+        "emailMe resume";
+}
+@media (min-width: 798px) {
+    .gridAbout {
+        display: grid;
+        justify-items: center;
+        max-width: 690px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro themeSwitch"
+            "intro intro intro languageSwitch"
+            "aboutMe aboutMe skills skills"
+            "aboutMe aboutMe skills skills"
+            "resume . . .";
+    }
+}
+@media (min-width: 1200px) {
+    .gridAbout {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro aboutMe aboutMe aboutMe"
+            "intro intro intro aboutMe aboutMe aboutMe"
+            "skills skills skills themeSwitch resume ."
+            "skills skills skills languageSwitch . .";
+    }
+}
+@media (max-width: 340px) {
+    .gridAbout {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro"
+            "languageSwitch"
+            "themeSwitch"
+            "aboutMe"
+            "skills"
+            "resume";
+    }
+}
+
+.gridProjects {
+    display: grid;
+    max-width: 350px;
+    margin: 1.5rem 0;
+    gap: 1rem;
+    grid-template-areas:
+        "intro intro"
+        "intro intro"
+        "languageSwitch themeSwitch"
+        "project1 project1"
+        "project1 project1"
+        "linkedIn gitHub"
+        "project2 project2"
+        "project2 project2"
+        "aboutMe aboutMe"
+        "aboutMe aboutMe"
+        "skills skills"
+        "skills skills"
+        "project3 project3"
+        "project3 project3"
+        "emailMe resume"
+        "project4 project4"
+        "project4 project4";
+}
+@media (min-width: 798px) {
+    .gridProjects {
+        display: grid;
+        justify-items: center;
+        max-width: 690px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro languageSwitch gitHub"
+            "intro intro linkedIn themeSwitch"
+            "aboutMe aboutMe project1 project1"
+            "aboutMe aboutMe project1 project1"
+            "project2 project2 project3 project3"
+            "project2 project2 project3 project3"
+            "skills skills project4 project4"
+            "skills skills project4 project4"
+            "emailMe resume . .";
+    }
+}
+@media (min-width: 1200px) {
+    .gridProjects {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro languageSwitch gitHub resume"
+            "intro intro intro linkedIn themeSwitch emailMe"
+            "aboutMe aboutMe aboutMe project1 project1 project1"
+            "aboutMe aboutMe aboutMe project1 project1 project1"
+            "project2 project2 project2 project3 project3 project3"
+            "project2 project2 project2 project3 project3 project3"
+            "skills skills skills project4 project4 project4"
+            "skills skills skills project4 project4 project4";
+    }
+}
+@media (max-width: 340px) {
+    .gridProjects {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro"
+            "languageSwitch"
+            "themeSwitch"
+            "project1"
+            "linkedIn"
+            "project2"
+            "gitHub"
+            "aboutMe"
+            "skills"
+            "project3"
+            "emailMe"
+            "project4"
+            "resume";
+    }
+}
