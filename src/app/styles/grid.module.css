@@ -144,87 +144,57 @@
     }
 }
 
-.gridProjects {
+.gridProject {
     display: grid;
     max-width: 350px;
     margin: 1.5rem 0;
     gap: 1rem;
     grid-template-areas:
-        "intro intro"
-        "intro intro"
-        "languageSwitch themeSwitch"
         "project1 project1"
-        "project1 project1"
-        "linkedIn gitHub"
         "project2 project2"
-        "project2 project2"
-        "aboutMe aboutMe"
-        "aboutMe aboutMe"
-        "skills skills"
-        "skills skills"
         "project3 project3"
-        "project3 project3"
-        "emailMe resume"
         "project4 project4"
-        "project4 project4";
+        "languageSwitch themeSwitch";
 }
 @media (min-width: 798px) {
-    .gridProjects {
+    .gridProject {
         display: grid;
         justify-items: center;
         max-width: 690px;
         margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
-            "intro intro languageSwitch gitHub"
-            "intro intro linkedIn themeSwitch"
-            "aboutMe aboutMe project1 project1"
-            "aboutMe aboutMe project1 project1"
-            "project2 project2 project3 project3"
-            "project2 project2 project3 project3"
-            "skills skills project4 project4"
-            "skills skills project4 project4"
-            "emailMe resume . .";
+            "project1 project1 project2 project2"
+            "project3 project3 project4 project4"
+            "languageSwitch themeSwitch . .";
     }
 }
 @media (min-width: 1200px) {
-    .gridProjects {
+    .gridProject {
         display: grid;
         justify-items: center;
         max-width: 1200px;
         margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
-            "intro intro intro languageSwitch gitHub resume"
-            "intro intro intro linkedIn themeSwitch emailMe"
-            "aboutMe aboutMe aboutMe project1 project1 project1"
-            "aboutMe aboutMe aboutMe project1 project1 project1"
-            "project2 project2 project2 project3 project3 project3"
-            "project2 project2 project2 project3 project3 project3"
-            "skills skills skills project4 project4 project4"
-            "skills skills skills project4 project4 project4";
+            "project1 project1 project1 project2 project2 project2"
+            "project3 project3 project3 project4 project4 project4"
+            "languageSwitch themeSwitch . . . .";
     }
 }
 @media (max-width: 340px) {
-    .gridProjects {
+    .gridProject {
         display: grid;
         justify-items: center;
         max-width: 1200px;
         margin: 1.5rem 0;
         gap: 1rem;
         grid-template-areas:
-            "intro"
-            "languageSwitch"
-            "themeSwitch"
             "project1"
-            "linkedIn"
+            "languageSwitch"
             "project2"
-            "gitHub"
-            "aboutMe"
-            "skills"
+            "themeSwitch"
             "project3"
-            "emailMe"
-            "project4"
-            "resume";
+            "project4";
     }
 }
