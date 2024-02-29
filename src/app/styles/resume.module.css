@@ -28,3 +28,8 @@
     text-align: center;
     text-shadow: var(--text-shadow);
 }
+@media (max-width: 340px) {
+    .resume {
+        min-width: 100%;
+    }
+}

@@ -73,3 +73,24 @@
         padding: 2rem 1.875rem;
     }
 }
+@media (min-width: 1200px) {
+    .project1,
+    .project2,
+    .project3,
+    .project4 {
+        max-width: 512px;
+    }
+}
+@media (max-width: 340px) {
+    .project1,
+    .project2,
+    .project3,
+    .project4 {
+        width: 100%;
+        min-height: 400px;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+    }
+}

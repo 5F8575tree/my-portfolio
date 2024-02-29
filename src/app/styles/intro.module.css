@@ -45,3 +45,18 @@
         padding: 7.5% 10%;
     }
 }
+@media (min-width: 1200px) {
+    .intro {
+        max-width: 512px;
+    }
+}
+@media (max-width: 340px) {
+    .intro {
+        width: 100%;
+        min-height: 400px;
+    }
+    .content {
+        padding: 1rem;
+        text-align: center;
+    }
+}

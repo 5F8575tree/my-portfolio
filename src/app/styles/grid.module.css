@@ -41,3 +41,44 @@
             "emailMe resume . .";
     }
 }
+@media (min-width: 1200px) {
+    .grid {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro intro intro languageSwitch gitHub resume"
+            "intro intro intro linkedIn themeSwitch emailMe"
+            "aboutMe aboutMe aboutMe project1 project1 project1"
+            "aboutMe aboutMe aboutMe project1 project1 project1"
+            "project2 project2 project2 project3 project3 project3"
+            "project2 project2 project2 project3 project3 project3"
+            "skills skills skills project4 project4 project4"
+            "skills skills skills project4 project4 project4";
+    }
+}
+@media (max-width: 340px) {
+    .grid {
+        display: grid;
+        justify-items: center;
+        max-width: 1200px;
+        margin: 1.5rem 0 0;
+        gap: 1rem;
+        grid-template-areas:
+            "intro"
+            "languageSwitch"
+            "themeSwitch"
+            "project1"
+            "linkedIn"
+            "project2"
+            "gitHub"
+            "aboutMe"
+            "skills"
+            "project3"
+            "emailMe"
+            "project4"
+            "resume";
+    }
+}

@@ -73,3 +73,8 @@ input:focus + .slider {
 input:checked + .slider:before {
     transform: translateX(26px);
 }
+@media (max-width: 340px) {
+    .languageSwitch {
+        min-width: 100%;
+    }
+}

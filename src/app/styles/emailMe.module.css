@@ -29,3 +29,8 @@
     text-align: center;
     text-shadow: var(--text-shadow);
 }
+@media (max-width: 340px) {
+    .emailMe {
+        min-width: 100%;
+    }
+}
