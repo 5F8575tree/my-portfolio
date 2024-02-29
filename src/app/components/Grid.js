@@ -1,13 +1,15 @@
 import styles from "../styles/grid.module.css";
 
+import AboutMe from "./AboutMe";
+import EmailMe from "./EmailMe";
+import GitHub from "./GitHub";
 import Intro from "./Intro";
-import ThemeSwitch from "./ThemeSwitch";
 import LanguageSwitch from "./LanguageSwitch";
 import LinkedIn from "./LinkedIn";
 import Project from "./Project";
-import GitHub from "./GitHub";
-import AboutMe from "./AboutMe";
+import Resume from "./Resume";
 import Skills from "./Skills";
+import ThemeSwitch from "./ThemeSwitch";
 
 const Grid = () => {
   return (
@@ -37,6 +39,8 @@ const Grid = () => {
         link="https://my-reads-mjr.netlify.app"
         number="3"
       />
+      <EmailMe />
+      <Resume />
     </div>
   );
 };
