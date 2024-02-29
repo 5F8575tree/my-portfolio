@@ -8,8 +8,8 @@ const LanguageSwitch = () => {
         <img src="/japan.svg" />
       </div>
       <div className={styles.toggleSwitch}>
-        <input id="themeToggle" type="checkbox" />
-        <label htmlFor="themeToggle" className={styles.slider}></label>
+        <input id="languageToggle" type="checkbox" />
+        <label htmlFor="languageToggle" className={styles.slider}></label>
       </div>
     </div>
   );

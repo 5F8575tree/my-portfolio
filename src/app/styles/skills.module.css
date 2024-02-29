@@ -2,7 +2,7 @@
     grid-area: skills;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: var(--grid-item-bg);
     border-radius: 1.5rem;
 }
 .content {
@@ -19,7 +19,7 @@
 .content__headers {
     font-family: var(--font-family-header);
     font-size: var(--font-size-header);
-    color: #000;
+    color: var(--text-color);
     padding: 0 0 3.5rem;
 }
 .content__paragraph {
@@ -34,8 +34,8 @@
     letter-spacing: 1.11px;
     margin: 0;
     padding: 5.5px 6.5px;
-    background-color: #f1eded;
-    color: #000;
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
     text-transform: uppercase;
 }
 @media (min-width: 798px) {
