@@ -55,3 +55,25 @@ h5,
 h6 {
     font-size: unset;
 }
+
+body.light {
+    --background-color: #252525;
+    --background-color-hover: #797979;
+    --text-color: #fafafa;
+    --grid-item-bg: #fff;
+    --paragraph: #1e1e1e;
+    --shadow-light: transparent 0 0 0 2px inset;
+    --tag-bg: #f1eded;
+    --tag-text: #000;
+}
+body.dark {
+    --background-color: #252525;
+    --background-color-hover: #797979;
+    --text-color: #f8f8f8;
+    /* --grid-item-bg: #262637; */
+    --grid-item-bg: #1d2944;
+    --paragraph: #f8f8f8;
+    --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
+    --tag-bg: #333;
+    --tag-text: #f8f8f8;
+}

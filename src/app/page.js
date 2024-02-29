@@ -7,15 +7,18 @@ import Name from "./components/Name";
 import Navbar from "./components/Navbar";
 
 import { DisplayProvider } from "./context/DisplayContext";
+import { ThemeProvider } from "./context/ThemeContext";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <DisplayProvider>
-        <Name />
-        <Navbar />
-        <Grid />
-      </DisplayProvider>
+      <ThemeProvider>
+        <DisplayProvider>
+          <Name />
+          <Navbar />
+          <Grid />
+        </DisplayProvider>
+      </ThemeProvider>
     </main>
   );
 }
