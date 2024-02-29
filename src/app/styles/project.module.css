@@ -12,6 +12,13 @@
     background-color: #fff;
     border-radius: 1.5rem;
 }
+.project3 {
+    grid-area: project3;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
 .content {
     padding: 3rem 2.875rem;
     display: flex;

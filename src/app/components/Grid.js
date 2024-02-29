@@ -31,6 +31,12 @@ const Grid = () => {
       />
       <AboutMe />
       <Skills />
+      <Project
+        title="Book app"
+        intro="This React app allows the user to search for books and store them into categories."
+        link="https://my-reads-mjr.netlify.app"
+        number="3"
+      />
     </div>
   );
 };
