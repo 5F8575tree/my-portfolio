@@ -31,7 +31,7 @@
     --background-gradient: radial-gradient(circle, #f8f8f8 0%, #fff 100%);
     --background-gradient-dark: radial-gradient(
         circle,
-        #1e1e1e 0%,
+        #132541 0%,
         rgb(15 23 42/1) 100%
     );
 }
@@ -85,17 +85,23 @@ body.light {
     --tag-bg: #f1eded;
     --tag-text: #000;
     --color-active: #fff;
+    --grid-item-border: solid 1px rgba(235, 235, 235, 0.1);
 }
 body.dark {
     background: var(--background-gradient-dark);
     --name-text: rgb(226 232 240/1);
     --background-color-hover: #797979;
     --text-color: rgb(226 232 240/1);
-    --grid-item-bg: #1d2944;
+    --grid-item-bg: radial-gradient(
+        circle closest-side at top center,
+        #1d2944 0%,
+        rgb(15 23 42/1) 70%
+    );
     /* --grid-item-bg: #1d2944; */
     --paragraph: #f8f8f8;
     --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
     --tag-bg: #1e1e1e;
     --tag-text: #f8f8f8;
     --color-active: #000;
+    --grid-item-border: solid 1px rgba(235, 235, 235, 0.1);
 }

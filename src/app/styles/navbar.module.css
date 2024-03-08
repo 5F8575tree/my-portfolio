@@ -1,6 +1,6 @@
 .navbar {
     margin: 1rem 0 0;
-    background-color: var(--tag-bg);
+    background: var(--tag-bg);
     border-radius: 0.5rem;
     padding: 0.25rem;
 }
