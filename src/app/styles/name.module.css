@@ -1,5 +1,6 @@
 .name {
-    color: var(--tag-text);
-    font-family: var(--font-family-header);
-    font-size: 2rem;
+    color: var(--name-text);
+    font-family: var(--page-header);
+    font-size: 128px;
+    line-height: 0.7;
 }

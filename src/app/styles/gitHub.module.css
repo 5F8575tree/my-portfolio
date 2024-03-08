@@ -9,8 +9,9 @@
     align-items: center;
     justify-content: center;
     padding: 3.625rem 2.25rem;
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
     background-color: var(--grid-item-bg);
+    box-shadow: var(--box-shadow);
 }
 @media (max-width: 340px) {
     .gitHub {

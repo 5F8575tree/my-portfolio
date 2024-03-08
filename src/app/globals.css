@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300;0,400;1,500;0,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuggles:wght@400&display=swap");
 
 :root {
-    --font-family-header: "Roboto Mono", mono;
-    --font-family-text: "Roboto", sans-serif;
+    --page-header: "Fuggles", mono;
+    --font-family-header: "Inter", sans-serif;
+    --font-family-text: "Helvetica Neue", sans-serif;
 
     --linear-accent: linear-gradient(
         145deg,
@@ -11,19 +12,28 @@
         rgba(255, 167, 81, 75%)
     );
     --text-shadow: 0 2px 9px rgba(0, 0, 0, 0.25);
+    --box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12),
+        0 4px 12px 0 rgba(0, 0, 0, 0.12);
 
     --grey-light: #ebebeb;
     --font-color-lighter: #444;
     --font-color-light: #333;
     --font-color-thin-accent: #ffa751;
 
-    --font-size-text: 15px;
-    --font-size-header: 24px;
+    --font-size-text: 16px;
+    --font-size-header: 38px;
 
     --letter-spacing-text: 1.125px;
     --line-height-text: 1.575;
 
     --font-weight-bold: 700;
+
+    --background-gradient: radial-gradient(circle, #f8f8f8 0%, #fff 100%);
+    --background-gradient-dark: radial-gradient(
+        circle,
+        #1e1e1e 0%,
+        rgb(15 23 42/1) 100%
+    );
 }
 
 * {
@@ -65,7 +75,8 @@ h6 {
 }
 
 body.light {
-    --background-color: #f3f3f3;
+    background: var(--background-gradient);
+    --name-text: #333;
     --background-color-hover: #797979;
     --text-color: #444;
     --grid-item-bg: #fff;
@@ -76,10 +87,11 @@ body.light {
     --color-active: #fff;
 }
 body.dark {
-    --background-color: #252525;
+    background: var(--background-gradient-dark);
+    --name-text: rgb(226 232 240/1);
     --background-color-hover: #797979;
-    --text-color: #f8f8f8;
-    --grid-item-bg: #353533;
+    --text-color: rgb(226 232 240/1);
+    --grid-item-bg: #1d2944;
     /* --grid-item-bg: #1d2944; */
     --paragraph: #f8f8f8;
     --border-silver: 0.5px solid rgba(255, 255, 255, 8%);
