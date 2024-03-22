@@ -1,7 +1,5 @@
-import styles from "../styles/name.module.css";
-
 const Name = () => {
-  return <div className={styles.name}>mark</div>;
+  return <img src="/logo-name.svg" />;
 };
 
 export default Name;
