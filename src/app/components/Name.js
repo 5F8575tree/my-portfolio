@@ -1,5 +1,5 @@
 const Name = () => {
-  return <img src="/logo-name.svg" />;
+  return <img src="/logo.svg" />;
 };
 
 export default Name;
